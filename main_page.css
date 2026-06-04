@@ -1,0 +1,9 @@
+header {
+	display: flex;
+	flex-direction: column;
+	height: 20%;
+}
+main {
+	background-color: grey;
+	height: 80%;
+}
