@@ -3,6 +3,7 @@ html, body {
 	margin: 0;
 }
 header {
+	background-color: #27F5AD;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
@@ -15,7 +16,7 @@ header {
 }
 
 main {
-	background-color: grey;
+	background-color: white;
 	height: 90vh;
 }
 
