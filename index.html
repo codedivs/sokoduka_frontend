@@ -1,17 +1,30 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="description" content="Discovering your desired items in around town with our market of shops" />
+		<title>Your one stop shop to find your desired commodity around your town</title>
 		<link rel="stylesheet" href="main_page.css">
 	</head>
 
 	<body>
 		<header>
-			<div class="menu">
+			<div id="menubtn" class="menu">
 				<div class="label">Menu</div>
 				<div></div>
 				<div></div>
 				<div></div>
 			</div>
+
+			<nav id="nav" class="sidebar">
+				<button id="closeBtn" class="close-btn">Close X</button>
+
+       				<a href="#">Home</a>
+        			<a href="#">About</a>
+        			<a href="#">Services</a>
+        			<a href="#">Post my shop</a>
+    			</nav>
 
 			<form>
 				<label for="search_items"></label>
@@ -30,5 +43,6 @@
 		<main>
 
 		</main>
+		<script src="navigation_menu.js"></script>
 	</body>
 </html>
